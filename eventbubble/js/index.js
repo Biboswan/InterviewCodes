@@ -93,3 +93,9 @@ document.querySelector("#child").addEventListener(
   true
 );
 */
+
+/*
+Limitations
+For some events , bubbling not allowed eg: blur, resize etc
+Use e.stopPropagation to stop progation at any point
+*/
