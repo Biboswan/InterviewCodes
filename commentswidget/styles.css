@@ -1,0 +1,24 @@
+main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  max-width: 400px;
+}
+
+form,
+#comment-list {
+  width: 400px;
+}
+
+#comment-list {
+  float: left;
+  display: block;
+}
+
+.comment {
+  list-style: none;
+}

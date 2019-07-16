@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Comment Widget</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <form class="container" onsubmit="event.preventDefault()">
+        <label>Comment</label><br />
+        <textarea id="comment-box" rows="10" cols="100"></textarea><br />
+        <button onclick="submitComment()" id="comment-submit">Submit</button
+        ><br />
+      </form>
+      <ul id="comment-list"></ul>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
