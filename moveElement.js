@@ -31,3 +31,5 @@ function moveElement2(duration, distance, element) {
   move(performance.now());
   //requestAnimationFrame(move);
 }
+
+//TODO: check if it really covers correct distance
