@@ -38,7 +38,10 @@ an off-by-one error in a whiteboard interview.) In JavaScript, accessing a
 nonexistent index in an array returns undefined (Python throws an IndexError,
 but Ruby returns nil). **/ 
 
-
+/**
+*  // closure is a function bundled with its lexical environment
+*  // when a function is returns , its returns the function + its lexcical scope bundled together
+*/
 
 /**
 * The Solution We can solve this by wrapping
